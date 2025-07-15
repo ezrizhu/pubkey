@@ -8,7 +8,7 @@ pkgs.mkShell {
     rust-analyzer
     clippy
     nodejs_20
-    nodePackages_latest.wrangler
+    wrangler
     pkg-config
     openssl
     lld
