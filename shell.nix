@@ -2,7 +2,8 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    rustc-wasm32
+    #rustc-wasm32
+    rustc
     cargo
     rustfmt
     rust-analyzer
